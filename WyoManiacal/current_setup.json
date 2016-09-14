@@ -1,0 +1,66 @@
+{
+    "controller": {
+        "config": {
+            "masterBrightness": 64, 
+            "threadedUpdate": true
+        }, 
+        "control_type": "matrix", 
+        "id": "*!#_WyoManiacal"
+    }, 
+    "driver": [
+        {
+            "config": {
+                "SPISpeed": 2, 
+                "c_order": [
+                    0, 
+                    1, 
+                    2
+                ], 
+                "dev": "", 
+                "deviceID": 0, 
+                "gamma": null, 
+                "hardwareID": "16C0:0483", 
+                "num": 1024, 
+                "restart_timeout": 3, 
+                "type": 3
+            }, 
+            "id": "serial"
+        }, 
+        {
+            "config": {
+                "SPISpeed": 2, 
+                "c_order": [
+                    0, 
+                    1, 
+                    2
+                ], 
+                "dev": "", 
+                "deviceID": 1, 
+                "gamma": null, 
+                "hardwareID": "16C0:0483", 
+                "num": 1024, 
+                "restart_timeout": 3, 
+                "type": 3
+            }, 
+            "id": "serial"
+        }, 
+        {
+            "config": {
+                "SPISpeed": 2, 
+                "c_order": [
+                    0, 
+                    1, 
+                    2
+                ], 
+                "dev": "", 
+                "deviceID": 2, 
+                "gamma": null, 
+                "hardwareID": "16C0:0483", 
+                "num": 1024, 
+                "restart_timeout": 3, 
+                "type": 3
+            }, 
+            "id": "serial"
+        }
+    ]
+}

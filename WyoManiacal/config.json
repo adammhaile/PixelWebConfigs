@@ -1,0 +1,8 @@
+{
+    "external_access": true, 
+    "load_defaults": false, 
+    "mod_dirs": [], 
+    "off_anim_time": 10, 
+    "port": 80, 
+    "show_debug": true
+}

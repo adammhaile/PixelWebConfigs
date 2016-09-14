@@ -1,0 +1,24 @@
+{
+    "driver": {
+        "WMD": {
+            "config": {
+                "SPISpeed": 2, 
+                "c_order": [
+                    0, 
+                    1, 
+                    2
+                ], 
+                "dev": "", 
+                "deviceID": 0, 
+                "gamma": null, 
+                "hardwareID": "16C0:0483", 
+                "num": 1024, 
+                "restart_timeout": 3, 
+                "type": 3
+            }, 
+            "desc": "", 
+            "display": "WMD", 
+            "id": "serial"
+        }
+    }
+}
