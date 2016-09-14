@@ -1,0 +1,42 @@
+{
+    "controller": {
+        "config": {
+            "masterBrightness": 128, 
+            "threadedUpdate": true
+        }, 
+        "control_type": "matrix", 
+        "id": "*!#_12k"
+    }, 
+    "driver": [
+        {
+            "config": {
+                "dev": "", 
+                "deviceID": 1, 
+                "hardwareID": "16C0:0483", 
+                "height": 32, 
+                "width": 128
+            }, 
+            "id": "teensysmartmatrix"
+        }, 
+        {
+            "config": {
+                "dev": "", 
+                "deviceID": 2, 
+                "hardwareID": "16C0:0483", 
+                "height": 32, 
+                "width": 128
+            }, 
+            "id": "teensysmartmatrix"
+        }, 
+        {
+            "config": {
+                "dev": "", 
+                "deviceID": 3, 
+                "hardwareID": "16C0:0483", 
+                "height": 32, 
+                "width": 128
+            }, 
+            "id": "teensysmartmatrix"
+        }
+    ]
+}

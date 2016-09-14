@@ -1,0 +1,28 @@
+{
+    "anim": {
+        "320x240 TopLeft VLC": {
+            "config": {
+                "bbox": [
+                    81, 
+                    52, 
+                    401, 
+                    292
+                ], 
+                "crop": false, 
+                "mirror": false
+            }, 
+            "desc": "", 
+            "display": "320x240 TopLeft VLC", 
+            "id": "ScreenGrab", 
+            "run": {
+                "amt": 1, 
+                "fps": 12, 
+                "max_cycles": 1, 
+                "max_steps": 0, 
+                "seconds": null, 
+                "untilComplete": false
+            }, 
+            "type": "matrix"
+        }
+    }
+}
