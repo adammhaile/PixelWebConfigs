@@ -48,6 +48,36 @@
                 "untilComplete": false
             }, 
             "type": "matrix"
+        }, 
+        "Repo Gifs": {
+            "config": {
+                "bgcolor": [
+                    0, 
+                    0, 
+                    0
+                ], 
+                "brightness": 255, 
+                "cycles": 1, 
+                "imagePath": "G:\\GitHub\\AnimatedGifs\\128x96", 
+                "offset": [
+                    0, 
+                    0
+                ], 
+                "random": true, 
+                "use_file_fps": false
+            }, 
+            "desc": "", 
+            "display": "Repo Gifs", 
+            "id": "ImageAnim", 
+            "run": {
+                "amt": 1, 
+                "fps": 15, 
+                "max_cycles": 1, 
+                "max_steps": 0, 
+                "seconds": null, 
+                "untilComplete": false
+            }, 
+            "type": "matrix"
         }
     }
 }
