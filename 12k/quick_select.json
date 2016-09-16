@@ -3,6 +3,45 @@
         "data": [
             {
                 "config": {
+                    "crop": true, 
+                    "far_color": [
+                        2, 
+                        2, 
+                        12
+                    ], 
+                    "far_z": 1100, 
+                    "max_z": 1100, 
+                    "mid_color": [
+                        40, 
+                        0, 
+                        114
+                    ], 
+                    "min_z": 440, 
+                    "mirror": true, 
+                    "near_color": [
+                        229, 
+                        107, 
+                        0
+                    ], 
+                    "near_z": 760, 
+                    "server": "10.0.1.133:1337"
+                }, 
+                "desc": "", 
+                "id": "KimotionSandstorm", 
+                "name": "Kimotion", 
+                "qs_type": "anim", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": null, 
+                    "untilComplete": false
+                }, 
+                "type": "matrix"
+            }, 
+            {
+                "config": {
                     "bbox": [
                         81, 
                         52, 
@@ -45,6 +84,27 @@
                 "run": {
                     "amt": 1, 
                     "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": null, 
+                    "untilComplete": false
+                }, 
+                "type": "matrix"
+            }, 
+            {
+                "config": {
+                    "crop": true, 
+                    "mirror": true, 
+                    "useVidFPS": false, 
+                    "videoSource": null
+                }, 
+                "desc": "", 
+                "id": "OpenCVVideo", 
+                "name": "WebCam", 
+                "qs_type": "anim", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 12, 
                     "max_cycles": 1, 
                     "max_steps": 0, 
                     "seconds": null, 

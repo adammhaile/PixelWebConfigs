@@ -49,6 +49,44 @@
             }, 
             "type": "matrix"
         }, 
+        "GOL Clock": {
+            "config": {
+                "font_name": "16x8", 
+                "mil_time": true
+            }, 
+            "desc": "", 
+            "display": "GOL Clock", 
+            "id": "GameOfLifeClock", 
+            "run": {
+                "amt": 1, 
+                "fps": 2, 
+                "max_cycles": 1, 
+                "max_steps": 0, 
+                "seconds": null, 
+                "untilComplete": false
+            }, 
+            "type": "matrix"
+        }, 
+        "Normal Webcam": {
+            "config": {
+                "crop": true, 
+                "mirror": true, 
+                "useVidFPS": false, 
+                "videoSource": null
+            }, 
+            "desc": "", 
+            "display": "Normal Webcam", 
+            "id": "OpenCVVideo", 
+            "run": {
+                "amt": 1, 
+                "fps": 12, 
+                "max_cycles": 1, 
+                "max_steps": 0, 
+                "seconds": null, 
+                "untilComplete": false
+            }, 
+            "type": "matrix"
+        }, 
         "Repo Gifs": {
             "config": {
                 "bgcolor": [
@@ -71,6 +109,37 @@
             "id": "ImageAnim", 
             "run": {
                 "amt": 1, 
+                "fps": 15, 
+                "max_cycles": 1, 
+                "max_steps": 0, 
+                "seconds": null, 
+                "untilComplete": false
+            }, 
+            "type": "matrix"
+        }, 
+        "Welcome to SparkCon": {
+            "config": {
+                "bgcolor": [
+                    0, 
+                    0, 
+                    0
+                ], 
+                "color": [
+                    255, 
+                    133, 
+                    0
+                ], 
+                "font_name": "16x8", 
+                "font_scale": 3, 
+                "text": "Welcome to SparkCon!", 
+                "xPos": 128, 
+                "yPos": 24
+            }, 
+            "desc": "", 
+            "display": "Welcome to SparkCon", 
+            "id": "ScrollText", 
+            "run": {
+                "amt": 4, 
                 "fps": 15, 
                 "max_cycles": 1, 
                 "max_steps": 0, 
