@@ -11,7 +11,7 @@
         {
             "config": {
                 "dev": "", 
-                "deviceID": 1, 
+                "deviceID": 10, 
                 "hardwareID": "16C0:0483", 
                 "height": 32, 
                 "width": 128
@@ -21,7 +21,7 @@
         {
             "config": {
                 "dev": "", 
-                "deviceID": 2, 
+                "deviceID": 11, 
                 "hardwareID": "16C0:0483", 
                 "height": 32, 
                 "width": 128
@@ -31,7 +31,7 @@
         {
             "config": {
                 "dev": "", 
-                "deviceID": 3, 
+                "deviceID": 12, 
                 "hardwareID": "16C0:0483", 
                 "height": 32, 
                 "width": 128
