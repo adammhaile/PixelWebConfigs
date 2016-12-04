@@ -117,6 +117,30 @@
             }, 
             "type": "matrix"
         }, 
+        "SNES": {
+            "config": {
+                "bbox": [
+                    0, 
+                    395, 
+                    526, 
+                    810
+                ], 
+                "crop": false, 
+                "mirror": false
+            }, 
+            "desc": "", 
+            "display": "SNES", 
+            "id": "ScreenGrab", 
+            "run": {
+                "amt": 1, 
+                "fps": 12, 
+                "max_cycles": 1, 
+                "max_steps": 0, 
+                "seconds": null, 
+                "untilComplete": false
+            }, 
+            "type": "matrix"
+        }, 
         "Welcome to SparkCon": {
             "config": {
                 "bgcolor": [

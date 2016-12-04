@@ -116,5 +116,93 @@
         "desc": "", 
         "name": "Demo", 
         "type": "matrix"
+    }, 
+    "Main": {
+        "data": [
+            {
+                "config": {
+                    "bbox": [
+                        81, 
+                        52, 
+                        401, 
+                        292
+                    ], 
+                    "crop": false, 
+                    "mirror": false
+                }, 
+                "desc": "", 
+                "id": "ScreenGrab", 
+                "name": "ScreenGrab", 
+                "qs_type": "anim", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 12, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": null, 
+                    "untilComplete": false
+                }, 
+                "type": "matrix"
+            }, 
+            {
+                "config": {
+                    "auto_gain": false, 
+                    "bins": 128, 
+                    "gain": 2, 
+                    "log_scale": true, 
+                    "max_freq": 4000, 
+                    "steps_per_vis": 100, 
+                    "vis_list": [
+                        "Spread", 
+                        "ScrollSpread", 
+                        "InverseSpread", 
+                        "InverseScrollSpread", 
+                        "PeakLineGraph", 
+                        "BasicLineGraph"
+                    ]
+                }, 
+                "desc": "", 
+                "id": "Spectrum", 
+                "name": "Music", 
+                "qs_type": "anim", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": null, 
+                    "untilComplete": false
+                }, 
+                "type": "matrix"
+            }, 
+            {
+                "config": {
+                    "bbox": [
+                        0, 
+                        395, 
+                        526, 
+                        810
+                    ], 
+                    "crop": false, 
+                    "mirror": false
+                }, 
+                "desc": "", 
+                "id": "ScreenGrab", 
+                "name": "SNES", 
+                "qs_type": "anim", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 12, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": null, 
+                    "untilComplete": false
+                }, 
+                "type": "matrix"
+            }
+        ], 
+        "desc": "", 
+        "name": "Main", 
+        "type": "matrix"
     }
 }
