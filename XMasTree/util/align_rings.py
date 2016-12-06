@@ -66,8 +66,8 @@ def export():
     global rings
     output = 'rings = [\n'
     for r in rings:
-        output += '    {}\n'.format(r)
-    output += '],\n'
+        output += '    {},\n'.format(r)
+    output += ']\n'
 
     print('')
     print(output)
