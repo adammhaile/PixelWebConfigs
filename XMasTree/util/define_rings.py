@@ -76,6 +76,7 @@ def update():
     for r in rings:
         for i in r:
             led.set(i, colors.Green if c else colors.Red)
+        c = not c
 
     last = rings[-1][-1]
     led.set(last, colors.Blue)
