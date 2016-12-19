@@ -1,0 +1,91 @@
+{
+    "demo": {
+        "data": [
+            {
+                "config": {
+                    "freq": 32, 
+                    "octaves": 1, 
+                    "type": true
+                }, 
+                "desc": "perlin", 
+                "id": "PerlinSimplex", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }, 
+            {
+                "config": {
+                    "growthRate": 4, 
+                    "tail": 4
+                }, 
+                "desc": "rain", 
+                "id": "MatrixRainBow", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }, 
+            {
+                "config": {
+                    "toroidal": false
+                }, 
+                "desc": "", 
+                "id": "GameOfLifeRGB", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 15, 
+                    "untilComplete": false
+                }
+            }, 
+            {
+                "config": {
+                    "bgcolor": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }, 
+                "desc": "circle", 
+                "id": "CirclePop", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 20, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }, 
+            {
+                "config": {
+                    "dir": true
+                }, 
+                "desc": "bloom", 
+                "id": "Bloom", 
+                "run": {
+                    "amt": 12, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }
+        ], 
+        "desc": "", 
+        "name": "demo", 
+        "type": "matrix"
+    }
+}
