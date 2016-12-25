@@ -1,0 +1,32 @@
+{
+    "controller": {
+        "config": {
+            "masterBrightness": 255,
+            "maxAngleDiff": 0,
+            "rotation": 0,
+            "threadedUpdate": true
+        },
+        "control_type": "circle",
+        "id": "*!#_controller.adammhale.XMas"
+    },
+    "driver": [
+        {
+            "config": {
+                "SPISpeed": 2,
+                "c_order": [
+                    0,
+                    1,
+                    2
+                ],
+                "dev": "",
+                "deviceID": null,
+                "gamma": null,
+                "hardwareID": "1D50:60AB",
+                "num": 300,
+                "restart_timeout": 3,
+                "type": 3
+            },
+            "id": "serial"
+        }
+    ]
+}

@@ -30,6 +30,7 @@ def genDisplayParams():
     }
     return params
 
+
 MANIFEST = [
     {
         "id": "controller.adammhale.XMas",
