@@ -1,0 +1,28 @@
+{
+    "controller": {
+        "config": {
+            "masterBrightness": 64, 
+            "maxAngleDiff": 0, 
+            "rotation": 0, 
+            "threadedUpdate": true
+        }, 
+        "control_type": "circle", 
+        "id": "*!#_controller.adammhaile.CircleClock"
+    }, 
+    "driver": [
+        {
+            "config": {
+                "SPISpeed": 2, 
+                "c_order": [
+                    2, 
+                    1, 
+                    0
+                ], 
+                "dev": "/dev/spidev0.0", 
+                "num": 255, 
+                "use_py_spi": true
+            }, 
+            "id": "APA102"
+        }
+    ]
+}
