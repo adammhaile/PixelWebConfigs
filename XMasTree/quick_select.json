@@ -5,119 +5,44 @@
                 "data": [
                     {
                         "config": {
-                            "colors": [
-                                [
-                                    255,
-                                    0,
-                                    0
-                                ],
-                                [
-                                    0,
-                                    255,
-                                    0
-                                ],
-                                [
-                                    255,
-                                    0,
-                                    0
-                                ],
-                                [
-                                    0,
-                                    255,
-                                    0
-                                ]
-                            ]
-                        },
-                        "desc": "pinwheel",
-                        "id": "PinWheel",
-                        "run": {
-                            "amt": 6,
-                            "fps": 15,
-                            "max_cycles": 1,
-                            "max_steps": 0,
-                            "seconds": 10,
-                            "untilComplete": false
-                        }
-                    },
-                    {
-                        "config": {
-                            "colors": [
-                                [
-                                    255,
-                                    0,
-                                    0
-                                ],
-                                [
-                                    0,
-                                    255,
-                                    0
-                                ],
-                                [
-                                    255,
-                                    255,
-                                    255
-                                ]
-                            ],
-                            "count": 100
-                        },
-                        "desc": "sparkle",
-                        "id": "FireFlies",
-                        "run": {
-                            "amt": 1,
-                            "fps": 3,
-                            "max_cycles": 1,
-                            "max_steps": 0,
-                            "seconds": 10,
-                            "untilComplete": false
-                        }
-                    }
-                ],
-                "desc": "",
-                "name": "Christmas",
-                "qs_type": "queue",
-                "type": "circle"
-            },
-            {
-                "data": [
-                    {
-                        "config": {
                             "spread": 1
-                        },
-                        "desc": "bloom",
-                        "id": "DiskBloom",
+                        }, 
+                        "desc": "", 
+                        "id": "Bloom", 
                         "run": {
-                            "amt": 4,
-                            "fps": 15,
-                            "max_cycles": 1,
-                            "max_steps": 0,
-                            "seconds": 10,
+                            "amt": 3, 
+                            "fps": 20, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": 10, 
                             "untilComplete": false
                         }
-                    },
+                    }, 
                     {
                         "config": {
-                            "angle": 12
-                        },
-                        "desc": "swirl",
-                        "id": "Swirl",
+                            "angle": 6, 
+                            "turns": 1
+                        }, 
+                        "desc": "", 
+                        "id": "Diag", 
                         "run": {
-                            "amt": 6,
-                            "fps": 15,
-                            "max_cycles": 1,
-                            "max_steps": 0,
-                            "seconds": 10,
+                            "amt": 8, 
+                            "fps": 20, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": 10, 
                             "untilComplete": false
                         }
                     }
-                ],
-                "desc": "",
-                "name": "Rainbow",
-                "qs_type": "queue",
+                ], 
+                "desc": "", 
+                "name": "Rainbow", 
+                "qs_type": "queue", 
                 "type": "circle"
             }
-        ],
-        "desc": "",
-        "name": "Tree",
+        ], 
+        "desc": "", 
+        "name": "Tree", 
         "type": "circle"
     }
 }

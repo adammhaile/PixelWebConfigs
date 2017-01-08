@@ -1,32 +1,27 @@
 {
     "controller": {
         "config": {
-            "masterBrightness": 255,
-            "maxAngleDiff": 0,
-            "rotation": 0,
+            "masterBrightness": 128, 
+            "pixelWidth": 1, 
             "threadedUpdate": true
-        },
-        "control_type": "circle",
-        "id": "*!#_controller.adammhale.XMas"
-    },
+        }, 
+        "control_type": "strip", 
+        "id": "strip"
+    }, 
     "driver": [
         {
             "config": {
-                "SPISpeed": 2,
+                "SPISpeed": 2, 
                 "c_order": [
-                    0,
-                    1,
-                    2
-                ],
-                "dev": "",
-                "deviceID": null,
-                "gamma": null,
-                "hardwareID": "1D50:60AB",
-                "num": 300,
-                "restart_timeout": 3,
-                "type": 3
-            },
-            "id": "serial"
+                    2, 
+                    1, 
+                    0
+                ], 
+                "dev": "/dev/spidev0.0", 
+                "num": 255, 
+                "use_py_spi": true
+            }, 
+            "id": "APA102"
         }
     ]
 }

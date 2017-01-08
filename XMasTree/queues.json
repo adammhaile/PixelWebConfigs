@@ -1,0 +1,40 @@
+{
+    "Rainbow": {
+        "data": [
+            {
+                "config": {
+                    "spread": 1
+                }, 
+                "desc": "", 
+                "id": "Bloom", 
+                "run": {
+                    "amt": 3, 
+                    "fps": 20, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }, 
+            {
+                "config": {
+                    "angle": 6, 
+                    "turns": 1
+                }, 
+                "desc": "", 
+                "id": "Diag", 
+                "run": {
+                    "amt": 8, 
+                    "fps": 20, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }
+        ], 
+        "desc": "", 
+        "name": "Rainbow", 
+        "type": "circle"
+    }
+}
