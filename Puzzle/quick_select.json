@@ -1,0 +1,108 @@
+{
+    "Puzzle": {
+        "data": [
+            {
+                "data": [
+                    {
+                        "config": {
+                            "bgcolor": [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            "color": [
+                                255, 
+                                0, 
+                                0
+                            ], 
+                            "font_name": "8x6", 
+                            "font_scale": 3, 
+                            "text": "NoVA Maker Faire", 
+                            "xPos": 24, 
+                            "yPos": 0
+                        }, 
+                        "desc": "NoVA MF", 
+                        "id": "ScrollText", 
+                        "run": {
+                            "amt": 1, 
+                            "fps": 15, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": null, 
+                            "untilComplete": true
+                        }
+                    }, 
+                    {
+                        "config": {
+                            "aa": true, 
+                            "cx": 11, 
+                            "cy": 11, 
+                            "radius": 11
+                        }, 
+                        "desc": "", 
+                        "id": "SpiningTriangle", 
+                        "run": {
+                            "amt": 12, 
+                            "fps": 15, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": 10, 
+                            "untilComplete": false
+                        }
+                    }, 
+                    {
+                        "config": {
+                            "dir": true
+                        }, 
+                        "desc": "", 
+                        "id": "Bloom", 
+                        "run": {
+                            "amt": 6, 
+                            "fps": 15, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": 10, 
+                            "untilComplete": false
+                        }
+                    }, 
+                    {
+                        "config": {}, 
+                        "desc": "", 
+                        "id": "TicTacToe", 
+                        "run": {
+                            "amt": 1, 
+                            "fps": 15, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": 10, 
+                            "untilComplete": false
+                        }
+                    }, 
+                    {
+                        "config": {
+                            "growthRate": 4, 
+                            "tail": 4
+                        }, 
+                        "desc": "", 
+                        "id": "MatrixRainBow", 
+                        "run": {
+                            "amt": 1, 
+                            "fps": 15, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": 10, 
+                            "untilComplete": false
+                        }
+                    }
+                ], 
+                "desc": "", 
+                "name": "Puzzle", 
+                "qs_type": "queue", 
+                "type": "matrix"
+            }
+        ], 
+        "desc": "", 
+        "name": "Puzzle", 
+        "type": "matrix"
+    }
+}

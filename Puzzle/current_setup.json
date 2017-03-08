@@ -1,7 +1,7 @@
 {
     "controller": {
         "config": {
-            "masterBrightness": 64, 
+            "masterBrightness": 48, 
             "threadedUpdate": false
         }, 
         "control_type": "matrix", 
