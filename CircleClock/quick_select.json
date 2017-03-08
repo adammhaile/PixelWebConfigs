@@ -1,17 +1,17 @@
 {
-    "Tree": {
+    "Circle": {
         "data": [
             {
                 "data": [
                     {
                         "config": {
-                            "spread": 1
+                            "spread": 2
                         }, 
                         "desc": "", 
                         "id": "Bloom", 
                         "run": {
-                            "amt": 3, 
-                            "fps": 20, 
+                            "amt": 6, 
+                            "fps": 15, 
                             "max_cycles": 1, 
                             "max_steps": 0, 
                             "seconds": 10, 
@@ -26,8 +26,130 @@
                         "desc": "", 
                         "id": "Diag", 
                         "run": {
-                            "amt": 8, 
-                            "fps": 20, 
+                            "amt": -8, 
+                            "fps": 15, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": 10, 
+                            "untilComplete": false
+                        }
+                    }, 
+                    {
+                        "config": {
+                            "colors": [
+                                [
+                                    255, 
+                                    0, 
+                                    0
+                                ], 
+                                [
+                                    255, 
+                                    165, 
+                                    0
+                                ], 
+                                [
+                                    255, 
+                                    255, 
+                                    0
+                                ], 
+                                [
+                                    0, 
+                                    255, 
+                                    0
+                                ], 
+                                [
+                                    0, 
+                                    0, 
+                                    255
+                                ], 
+                                [
+                                    128, 
+                                    0, 
+                                    128
+                                ]
+                            ], 
+                            "count": 10
+                        }, 
+                        "desc": "", 
+                        "id": "FireFlies", 
+                        "run": {
+                            "amt": 1, 
+                            "fps": 15, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": 10, 
+                            "untilComplete": false
+                        }
+                    }, 
+                    {
+                        "config": {
+                            "growthRate": 4, 
+                            "tail": 4
+                        }, 
+                        "desc": "", 
+                        "id": "HyperspaceRainbow", 
+                        "run": {
+                            "amt": 1, 
+                            "fps": 15, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": 10, 
+                            "untilComplete": false
+                        }
+                    }, 
+                    {
+                        "config": {
+                            "colors": [
+                                [
+                                    255, 
+                                    0, 
+                                    0
+                                ], 
+                                [
+                                    255, 
+                                    165, 
+                                    0
+                                ], 
+                                [
+                                    255, 
+                                    255, 
+                                    0
+                                ], 
+                                [
+                                    0, 
+                                    255, 
+                                    0
+                                ], 
+                                [
+                                    0, 
+                                    0, 
+                                    255
+                                ], 
+                                [
+                                    128, 
+                                    0, 
+                                    128
+                                ]
+                            ]
+                        }, 
+                        "desc": "", 
+                        "id": "PinWheel", 
+                        "run": {
+                            "amt": 6, 
+                            "fps": 15, 
+                            "max_cycles": 1, 
+                            "max_steps": 0, 
+                            "seconds": 10, 
+                            "untilComplete": false
+                        }
+                    }, 
+                    {
+                        "config": {}, 
+                        "desc": "", 
+                        "id": "ArcClock", 
+                        "run": {
+                            "amt": 1, 
+                            "fps": 15, 
                             "max_cycles": 1, 
                             "max_steps": 0, 
                             "seconds": 10, 
@@ -36,13 +158,13 @@
                     }
                 ], 
                 "desc": "", 
-                "name": "Rainbow", 
+                "name": "Demo", 
                 "qs_type": "queue", 
                 "type": "circle"
             }
         ], 
         "desc": "", 
-        "name": "Tree", 
+        "name": "Demo", 
         "type": "circle"
     }
 }

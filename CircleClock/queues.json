@@ -1,4 +1,164 @@
 {
+    "Demo": {
+        "data": [
+            {
+                "config": {
+                    "spread": 2
+                }, 
+                "desc": "", 
+                "id": "Bloom", 
+                "run": {
+                    "amt": 6, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }, 
+            {
+                "config": {
+                    "angle": 6, 
+                    "turns": 1
+                }, 
+                "desc": "", 
+                "id": "Diag", 
+                "run": {
+                    "amt": -8, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }, 
+            {
+                "config": {
+                    "colors": [
+                        [
+                            255, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            255, 
+                            165, 
+                            0
+                        ], 
+                        [
+                            255, 
+                            255, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            255, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            255
+                        ], 
+                        [
+                            128, 
+                            0, 
+                            128
+                        ]
+                    ], 
+                    "count": 10
+                }, 
+                "desc": "", 
+                "id": "FireFlies", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }, 
+            {
+                "config": {
+                    "growthRate": 4, 
+                    "tail": 4
+                }, 
+                "desc": "", 
+                "id": "HyperspaceRainbow", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }, 
+            {
+                "config": {
+                    "colors": [
+                        [
+                            255, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            255, 
+                            165, 
+                            0
+                        ], 
+                        [
+                            255, 
+                            255, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            255, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            255
+                        ], 
+                        [
+                            128, 
+                            0, 
+                            128
+                        ]
+                    ]
+                }, 
+                "desc": "", 
+                "id": "PinWheel", 
+                "run": {
+                    "amt": 6, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }, 
+            {
+                "config": {}, 
+                "desc": "", 
+                "id": "ArcClock", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": 10, 
+                    "untilComplete": false
+                }
+            }
+        ], 
+        "desc": "", 
+        "name": "Demo", 
+        "type": "circle"
+    }, 
     "Rainbow": {
         "data": [
             {
