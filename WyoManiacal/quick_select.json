@@ -260,6 +260,45 @@
                 "name": "Demo Reel", 
                 "qs_type": "queue", 
                 "type": "matrix"
+            }, 
+            {
+                "config": {
+                    "crop": true, 
+                    "far_color": [
+                        2, 
+                        2, 
+                        12
+                    ], 
+                    "far_z": 1100, 
+                    "max_z": 1100, 
+                    "mid_color": [
+                        40, 
+                        0, 
+                        114
+                    ], 
+                    "min_z": 440, 
+                    "mirror": true, 
+                    "near_color": [
+                        0, 
+                        229, 
+                        0
+                    ], 
+                    "near_z": 760, 
+                    "server": "localhost:1337"
+                }, 
+                "desc": "", 
+                "id": "KimotionSandstorm", 
+                "name": "Kimotion", 
+                "qs_type": "anim", 
+                "run": {
+                    "amt": 1, 
+                    "fps": 15, 
+                    "max_cycles": 1, 
+                    "max_steps": 0, 
+                    "seconds": null, 
+                    "untilComplete": false
+                }, 
+                "type": "matrix"
             }
         ], 
         "desc": "", 
