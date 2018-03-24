@@ -17,7 +17,7 @@
                     2
                 ], 
                 "dev": "", 
-                "deviceID": 0, 
+                "deviceID": 18, 
                 "gamma": null, 
                 "hardwareID": "16C0:0483", 
                 "num": 1024, 
@@ -35,7 +35,7 @@
                     2
                 ], 
                 "dev": "", 
-                "deviceID": 1, 
+                "deviceID": 17, 
                 "gamma": null, 
                 "hardwareID": "16C0:0483", 
                 "num": 1024, 
