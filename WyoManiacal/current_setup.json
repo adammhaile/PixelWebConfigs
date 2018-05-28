@@ -53,7 +53,7 @@
                     2
                 ], 
                 "dev": "", 
-                "deviceID": 2, 
+                "deviceID": 0, 
                 "gamma": null, 
                 "hardwareID": "16C0:0483", 
                 "num": 1024, 
